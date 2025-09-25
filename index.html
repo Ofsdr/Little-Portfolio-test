@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OFSdr | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 60px;
+      font-size: 3rem;
+      color: #fff;
+    }
+
+    h1 span {
+      color: #a855f7;
+    }
+
+    p {
+      color: #bbb;
+    }
+
+    .intro {
+      max-width: 700px;
+      margin: 20px auto 60px;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .about h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #a855f7;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      margin: 15px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      margin: 0 15px 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .card a {
+      display: block;
+      margin: 0 15px 20px;
+      text-decoration: none;
+      color: #a855f7;
+      font-weight: bold;
+    }
+
+    .contact {
+      margin: 80px 20px;
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #a855f7;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover {
+      background: #9333ea;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey, I'm <span>Ofsdr</span></h1>
+  <p class="intro">Junior Web Designer & Frontend Developer | Minimalist Dark Portfolio</p>
+
+  <!-- About -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a junior web designer and junior front-end developer with a passion for creating modern,
+      user-friendly, and visually engaging websites. My background combines creativity and technical expertise:
+      from building layouts and prototypes to coding responsive designs with clean HTML, CSS, and JavaScript.
+    </p>
+    <p>
+      I enjoy turning ideas into functional interfaces, paying close attention to usability, typography,
+      and color harmony. With experience in tools like Figma, Photoshop, and Illustrator, I focus on delivering
+      designs that not only look good but also solve real business needs.
+    </p>
+    <p>
+      When working with clients, I aim to understand their vision and translate it into a digital product
+      that stands out. My goal is always to balance aesthetics with functionality, making every project
+      both beautiful and effective.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects">
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?minimal,design" alt="Project 1" />
+      <h2>Minimal Website</h2>
+      <p>A clean and modern website project with smooth layout.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?creative,web" alt="Project 2" />
+      <h2>Creative Portfolio</h2>
+      <p>Portfolio with animations and interactive effects.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?technology,code" alt="Project 3" />
+      <h2>Tech Blog</h2>
+      <p>Simple and stylish blog template for developers.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?app,design" alt="Project 4" />
+      <h2>Mobile App UI</h2>
+      <p>Modern mobile app interface with smooth user flow.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?startup,team" alt="Project 5" />
+      <h2>Startup Landing Page</h2>
+      <p>A landing page template for startups and small businesses.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?ecommerce,shop" alt="Project 6" />
+      <h2>E-Commerce Website</h2>
+      <p>Stylish online store design with modern shopping UI.</p>
+      <a href="https://github.com/Ofsdr" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <div class="contact">
+    <h2>Let's Connect</h2>
+    <p>Email me if you’d like to collaborate or just say hi!</p>
+    <a href="mailto:ofsdr@proton.me">Contact Me</a>
+  </div>
+</body>
+</html>
